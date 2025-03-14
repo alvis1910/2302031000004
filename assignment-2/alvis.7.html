@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Time Capsule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.signup-btn {
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.contact {
+    text-align: left;
+}
+
+.copyright {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Historical Time Capsule</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#" class="signup-btn">Sign-Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-section">
+        <h2>About Us</h2>
+        <p>
+            A historical time capsule is a container filled with objects and documents
+            representative of a specific period in history, deliberately buried or stored to
+            provide future generations with a snapshot of life at that time, allowing historians
+            and archaeologists to study the culture, technology, and everyday practices of a
+            bygone era. Essentially acting as a message to the future about the present day,
+            often placed during significant events like building cornerstones or major celebrations.
+        </p>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p><strong>Historical Time Capsule</strong></p>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">ElectroTech</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <p>Email: contact@electro.com</p>
+                <p>Phone: +91 9999999999</p>
+            </div>
+        </div>
+        <p class="copyright">© timecapsule | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
